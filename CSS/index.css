@@ -69,9 +69,10 @@ form a{
 
 form input[type="button"]{ 
     background-color: greenyellow;
+    color: white;
     border: none;
-    padding: 10px 90px;
-    margin-top: 20px;
-    display: flex;
-    position: relative;
+    padding: 14px 20px;
+    margin:8px 0;
+    cursor: pointer;
+    width:100%;
 }
