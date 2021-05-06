@@ -8,7 +8,7 @@
 <b>CamPick<b></p>
 </div>
     <div class="login-form">
-        <form action="index.html" method="POST"> 
+        <form action="login.php" method="POST"> 
         <h1> Login </h1>
         <div class="input">
             <h5> Username </h5>
@@ -16,10 +16,11 @@
         </div>
         <div class="input">
             <h5> Password </h5>
-            <input class="input" type="password" name="password"> 
+            <input class="input" type="password" name="password" required> 
         </div>
+        <input type="submit" class="btn-login" value="Login" name="login-button">
+        <input type="submit" class="btn-register" value="Register">
         <a href="#"> Forgot Password?</a>
-        <input type="button" class="btn" value="login">
     </form>
 </div>
 </body>
