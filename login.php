@@ -11,10 +11,10 @@
     
         $data = mysqli_query($db, $sql);
         // menghitung jumlah data yang ditemukan
-        $cek = mysqli_num_rows($data);7
+        $cek = mysqli_num_rows($data);
         
         if($cek > 0){
-            header("location: halamanUtama.html");
+            header("location: halamanUtama.php");
         }else{
             header("location: index.php?pesan=gagal");
         }
