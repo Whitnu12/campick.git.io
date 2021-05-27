@@ -45,7 +45,7 @@
                 <input class="input" type="password" name="password" id="pass"> 
             </div>
             <input type="submit" class="btn-login" value="Login" name="login-button">
-            <a href="register.html" class="btn-register"> Register </a> 
+            <a href="register-halaman.php" class="btn-register"> Register </a> 
             <a href="#"> Forgot Password?</a>
         </form>
     </div>

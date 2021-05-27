@@ -1,6 +1,6 @@
 <head> 
     <title> CamPick </title>
-    <link rel="stylesheet" href="./CSS/index.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/regist.css" type="text/css">
 </head>
 <body> 
 <div class="judul"> 
@@ -8,8 +8,8 @@
     <b>CamPick<b></p>
 </div>
     <div class="login-form">
-        <form action="Register.php" method="POST"> 
-            <h1> Login </h1>
+        <form action="./Register.php" method="POST"> 
+            <h1> Register </h1>
             <div class="input">
                 <h5> Name </h5>
                 <input class="input" type="text" name="name"> 
@@ -26,9 +26,7 @@
                 <h5> Password </h5>
                 <input class="input" type="password" name="password" required> 
             </div>
-            <input type="submit" class="btn-login" value="Login" name="login-button">
-            <input type="submit" class="btn-register" value="Register">
-            <a href="#"> Forgot Password?</a>
+            <input type="submit" class="btn-register" value="regist">
         </form>
     </div>
 </body>

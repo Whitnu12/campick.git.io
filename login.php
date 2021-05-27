@@ -7,7 +7,7 @@
         $Username = $_POST['username'];
         $Password = $_POST['password'];
     
-        $sql = "SELECT * FROM user WHERE username='$Username' AND password='$Password'";
+        $sql = "SELECT * FROM user WHERE username='$Username, $Email' AND password='$Password'";
     
         $data = mysqli_query($db, $sql);
         // menghitung jumlah data yang ditemukan

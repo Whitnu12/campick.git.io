@@ -1,0 +1,82 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-image:url(/campick/IMG/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Judul Kiri  */
+
+.judul{ 
+    color: white;
+    top: 40%;
+    position: absolute;
+    left: 5%;
+}
+
+.judul p{ 
+    font-size:20px ;
+}
+
+.judul b{ 
+    font-size:100px ;
+}
+
+/* form */
+
+.login-form{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+form{ 
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    right: 6%;
+    top: 6%;
+    background-color: white;
+    border-radius: 20px;
+}
+form h1{ 
+    margin: 40px;
+}
+
+form input[type="text"]{ 
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid black;
+    outline: none;
+}
+
+form input[type="password"]{
+    color: black;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+form a{ 
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    display:block;
+    margin-top: 30px;
+}
+
+.btn-register{ 
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size:20px;
+    cursor: pointer;
+    width:50%;
+    display: inline-block;
+}
