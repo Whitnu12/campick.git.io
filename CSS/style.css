@@ -1,0 +1,15 @@
+.heading {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.heading h1 {
+    border-bottom: 1px solid #2682E6;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+.mtb-60 {
+    margin: 60px 0;
+}

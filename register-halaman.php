@@ -26,7 +26,7 @@
                 <h5> Password </h5>
                 <input class="input" type="password" name="password" required> 
             </div>
-            <input type="submit" class="btn-register" value="regist">
+            <input type="submit" class="btn-register" value="register">
         </form>
     </div>
 </body>
