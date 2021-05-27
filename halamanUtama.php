@@ -20,7 +20,7 @@
     <div class="title">
         <h3> Welcome To </h3>
         <h1> CamPick </h1>
-        <a href="index.html">Join Us!</a>
+        <a href="index.html"><strong>Join Us!</strong></a>
         <a href="#">take a Tour!</a> 
     </div>
 </div>
