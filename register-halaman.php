@@ -8,7 +8,7 @@
     <b>CamPick<b></p>
 </div>
     <div class="login-form">
-        <form action="Register.php" method="POST"> 
+        <form action="" method="POST"> 
             <h1> Register </h1>
             <div class="input">
                 <h5> Name </h5>

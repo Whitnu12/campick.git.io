@@ -60,5 +60,9 @@
 <script src="./js/slide.js">
 </script>
 
-
+<div class="desc-par2"> 
+<img src=IMG\kisspng-checklist-digital-estate-planning-marketing-requir-vector-notebook-5a8e2a3cb42843.0068702015192663647379.png>
+<h1> Syarat yang Mudah! </h1><br>
+<p> Welcome to my guys watsap sokap nich, wich is time it is ngabs <br> 
+wicis is your is my ngabs tuch ah mantapsv </p>
 </body>
