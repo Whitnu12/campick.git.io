@@ -89,6 +89,6 @@ masih Mulus dan Baru!
         <div class="container2">  
             <p id="p1"> ©Campick - 2021 </p> 
             <p id="p2"> Penyewaan Alat Camping Termurah di Jogja </p>  
-</div>
+    </div>
 
 </html> 
