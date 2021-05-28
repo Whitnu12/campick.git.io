@@ -69,8 +69,15 @@
 <div class="desc-par2"> 
 <img src=IMG\kisspng-checklist-digital-estate-planning-marketing-requir-vector-notebook-5a8e2a3cb42843.0068702015192663647379.png>
 <h1> Syarat yang Mudah! </h1><br>
-<p> Welcome to my guys watsap sokap nich, wich is time it is ngabs <br> 
-wicis is your is my ngabs tuch ah mantapsv </p>
+<p> Persyaratan Untuk meminjam Perlengkapan camping sangat mudah <br> 
+Cukup dengan : <br>
+KTP ✔<br>
+Nomor Handphone ✔ <br>
+DP 50% Dari Total Harga ✔<br> 
+<br>
+Kalian Sudah Bisa Menggunakan Alat Alat Camping Yang 
+masih Mulus dan Baru!
+ </p>
 </div>
 </body>
 

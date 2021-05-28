@@ -36,6 +36,7 @@ body{
     padding:1vw;
     text-decoration: none;
     font-size: 19px;
+    font-weight: bold;
 
 }
 
@@ -226,7 +227,7 @@ body{
     float: right;
     position: absolute;
     left: 700px;
-    top: -50px;
+    top:10px;
 }
 
 .container1{
