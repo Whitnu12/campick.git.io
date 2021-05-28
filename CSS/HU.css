@@ -53,7 +53,7 @@ body{
 }
 /* header IMG */
 .header{ 
-    background-image: url(IMG/181138.jpg);
+    background-image:url(/CAMPICK/IMG/BackgroundCamp.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -152,7 +152,7 @@ body{
     font-size: 30px;
     padding: 8px 12px;
     position: absolute;
-    top: -20;
+    top: -50px;
     width: 100%;
     text-align: center;
 }
@@ -227,4 +227,48 @@ body{
     position: absolute;
     left: 700px;
     top: -50px;
+}
+
+.container1{
+    width: 100%;
+    background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+
+.container1 h1{ 
+    margin-left:100px;
+    margin-top:20px ;
+}
+
+.container1 a{ 
+    color: white;
+    background-color: rgb(16, 0, 105);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    float: right;
+    margin-right: 170px;
+    font-weight: bold;
+    margin-top: -50px;
+    border-radius: 20px;
+}
+
+.container2{ 
+    display: block;
+    padding-top: 35px;
+    height: 60px;
+}
+
+#p1{ 
+    float: left;
+    margin-left: 30px;
+}
+
+#p2{ 
+    float: right;
+    margin-right: 30px;
 }
