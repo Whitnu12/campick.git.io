@@ -19,7 +19,7 @@
     <div class="navbar">
         <ul>
             <li> <a href="Form-Login.php"> Login </a> </li>    
-            <li> <a href="#">About us</a></li>
+            <li> <a href="aboutUs.html">About us</a></li>
             <li> <a href="#"class="active1">Galeri</a></li>
             <li> <a href="#">Product</a> </li>
             <li> <a href="index.php">Home</a></li>

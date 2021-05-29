@@ -4,8 +4,8 @@
     
     if(isset($_POST["login-button"])) {
         // menangkap data yang dikirim dari form
-        $Username = $_POST['username'];
-        $Password = $_POST['password'];
+        $username = $_POST['username'];
+        $password = $_POST['password'];
     
         $sql = "SELECT * FROM user WHERE username='$Username, $Email' AND password='$Password'";
     

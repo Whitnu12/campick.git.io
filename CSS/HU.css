@@ -276,3 +276,23 @@ body{
     float: right;
     margin-right: 30px;
 }
+
+.call{ 
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.show{ 
+    font-size:20px;
+    background: white;
+    color: black;
+    position: fixed;
+    right: 70px;
+    bottom: 25px;
+    width: 140px;
+}

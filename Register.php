@@ -8,8 +8,8 @@ if(isset($_POST["btn-register"])){
     $Nama_lengkap = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
     $Username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
     // enkripsi password
-    $Password = password_hash($_POST["password"], PASSWORD_DEFAULT);
-    $Email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $assword = password_hash($_POST["password"], PASSWORD_DEFAULT);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 
 
     // menyiapkan query
