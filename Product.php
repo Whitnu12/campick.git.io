@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel=" stylesheet" href="CSS/produk.css" media="screen">
+    <link rel=" stylesheet" href="/campick/CSS/produk.css" media="screen">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

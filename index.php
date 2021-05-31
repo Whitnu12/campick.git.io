@@ -17,8 +17,8 @@
             <li> <a href="Form-Login.php"> Login </a> </li>    
             <li> <a href="aboutUs.html">About us</a></li>
             <li> <a href="galeri.php">Galeri</a></li>
-            <li> <a href="#">Product</a> </li>
-            <li> <a href="#" class="active1">Home</a></li>
+            <li> <a href="Product.php">Product</a> </li>
+            <li> <a href="index.php" class="active1">Home</a></li>
             <li style="float: left; padding-left:20px ; margin: 10px;"> <img src="./IMG/Logo Campick .png" id="logo"></li>
         </ul>
     </div>
