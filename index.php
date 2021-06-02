@@ -92,7 +92,7 @@ masih Mulus dan Baru!
     <div class="footer"> 
         <div class="container1">
              <h1> Ayo Booking Sekarang! </h1> 
-             <a href="#"> Booking! </a> 
+             <a href="Product.php"> Booking! </a> 
         </div> 
         <div class="container2">  
             <p id="p1"> ©Campick - 2021 </p> 
