@@ -90,7 +90,7 @@
                                         <tbody>
 
                                             <?php
-                                                $sql = "SELECT * FROM campickadmin";
+                                                $sql = "SELECT * FROM campick_admin";
                                                 $query = mysqli_query($db, $sql);
                                             
                                                 while($produk = mysqli_fetch_array($query)){
