@@ -1,22 +1,28 @@
 <?php 
 
-    include("./config.php");
+    include("config.php");
     
     if(isset($_POST["login-button"])) {
-        // menangkap data yang dikirim dari form
         $username = $_POST['username'];
         $password = $_POST['password'];
     
-        $sql = "SELECT * FROM user WHERE username='$Username, $Email' AND password='$Password'";
+        $sql = "SELECT * FROM user WHERE username='$username' AND password='$password'";
     
         $data = mysqli_query($db, $sql);
-        // menghitung jumlah data yang ditemukan
         $cek = mysqli_num_rows($data);
         
         if($cek > 0){
-            header("location: halamanUtama.php");
+            echo "<script>
+                    alert('Selamat datang $username!')
+                    document.location.href = 'index.php'
+                    </script>
+                    ";
         }else{
-            header("location: index.php?pesan=gagal");
+            echo "<script>
+                    alert('Anda Belum Memiliki Akun')
+                    document.location.href = 'Form-Login.php?login=gagal'
+                    </script>
+                    ";
         }
 
     }
