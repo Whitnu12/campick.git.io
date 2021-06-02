@@ -1,29 +1,48 @@
 <?php 
 
-    include("config.php");
-    
-    if(isset($_POST["login-button"])) {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-    
-        $sql = "SELECT * FROM user WHERE username='$username' AND password='$password'";
-    
-        $data = mysqli_query($db, $sql);
-        $cek = mysqli_num_rows($data);
-        
+    session_start();
+ 
+    include 'config.php';
+ 
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+ 
+ 
+    $login = mysqli_query($koneksi,"select * from user where username='$username' and password='$password'");
+    $cek = mysqli_num_rows($login);
+
         if($cek > 0){
-            echo "<script>
+
+            $data = mysqli_fetch_assoc($login);
+
+            if($data['Role']=="admin"){
+                $_SESSION['username'] = $username;
+                $_SESSION['Role'] = "admin";
+
+                echo "<script>
+                    alert('Selamat datang $username!')
+                    document.location.href = 'galeri.php'
+                    </script>
+                    ";
+            }
+
+            else if($data['Role']=="user"){ 
+                $_SESSION['username'] = $username;
+                $_SESSION['Role'] = "user";
+
+                echo "<script>
                     alert('Selamat datang $username!')
                     document.location.href = 'index.php'
                     </script>
                     ";
-        }else{
-            echo "<script>
+            }
+            else{
+                echo "<script>
                     alert('Anda Belum Memiliki Akun')
                     document.location.href = 'Form-Login.php?login=gagal'
                     </script>
                     ";
-        }
-
-    }
+                }
+        }        
+    
 ?>

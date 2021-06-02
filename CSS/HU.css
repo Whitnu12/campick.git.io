@@ -292,7 +292,12 @@ body{
     background: white;
     color: black;
     position: fixed;
+    display: none;
     right: 70px;
     bottom: 25px;
     width: 140px;
+}
+
+.show:hover{ 
+    display: block;
 }
