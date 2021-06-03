@@ -53,7 +53,7 @@ body {
 #gallerywrapper {
     border: 5px solid gainsboro;
     float: left;
-    width: 600px;
+    width: 48%;
     height: 450px;
     margin: 90px 20px 20px 60px;
     position: relative;
@@ -91,7 +91,7 @@ body {
 
 #gallerywrapper #gallery div p {
     padding: 20px 0;
-    margin: 0;
+    margin: 1px0;
     font-size: 12px;
     line-height: 18px;
 }
