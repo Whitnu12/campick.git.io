@@ -31,13 +31,9 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
-<<<<<<< HEAD
-                        <a class="nav-link" href="/user.html">
-                            <i class=""></i>
-=======
-                        <a class="nav-link" href="./user.html">
-                            
->>>>>>> 46dfc9fe76daa9cd5b6c0231c92ce50def08d230
+
+                        <a class="nav-link" href="index.html">
+
                             <p>Utama</p>
                         </a>
                     </li>

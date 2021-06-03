@@ -29,8 +29,8 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./user.html">
-                            <i class="nc-icon nc-apple"></i>
+                        <a class="nav-link" href="index.html">
+                        
                             <p>Utama</p>
                         </a>
                     </li>
