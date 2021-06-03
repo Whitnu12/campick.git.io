@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="./CSS/regist.css" type="text/css">
 </head>
 <body> 
+
 <div class="judul"> 
     <p> Welcome to <br> 
     <b>CamPick<b></p>
