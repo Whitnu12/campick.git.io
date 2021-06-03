@@ -32,13 +32,13 @@
                 <ul class="nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="./user.html">
-                            <i class="nc-icon nc-circle-09"></i>
+                            
                             <p>Utama</p>
                         </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="./user.php">
-                            <i class=""></i>
+                            
                             <p>Data Produk</p>
                         </a>
                     </li>
@@ -87,13 +87,13 @@
                                 <div class="form-group row">
                                     <label class="col-sm-12 col-md-2 col-form-label">Kode Barang</label>
                                     <div class="col-sm-12 col-md-10">
-                                        <input class="form-control" name="kode-barang" placeholder="Kode Barang" required>
+                                        <input class="form-control" name="kode_barang" placeholder="Kode Barang" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-sm-12 col-md-2 col-form-label">Nama</label>
                                     <div class="col-sm-12 col-md-10">
-                                        <input class="form-control" name="nama-barang" type="text" placeholder="Nama Barang" required>
+                                        <input class="form-control" name="nama_barang" type="text" placeholder="Nama Barang" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">

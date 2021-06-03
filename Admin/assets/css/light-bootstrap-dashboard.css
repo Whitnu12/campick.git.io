@@ -675,9 +675,9 @@ body>.navbar-collapse[data-color="red"]:after {
     background-size: 150% 150%;
 }
 
-.sidebar[data-color="purple"]:after,
+/* .sidebar[data-color="purple"]:after,
 body>.navbar-collapse[data-color="purple"]:after {
-    background: #9368E9;
+    background: #68e99e;
     background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
     background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
@@ -685,7 +685,7 @@ body>.navbar-collapse[data-color="purple"]:after {
     background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
     background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
     background-size: 150% 150%;
-}
+} */
 
 .main-panel {
     background: rgba(203, 203, 210, 0.15);
@@ -2104,7 +2104,7 @@ fieldset[disabled] .form-control {
 }
 
 .navbar.fixed {
-    width: calc(100% - $sidebar-width);
+    width: calc(100% - sidebar-width);
     right: 0;
     left: auto;
     border-radius: 0;

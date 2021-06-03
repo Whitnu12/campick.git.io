@@ -5,7 +5,7 @@
     $kodebarang = $_GET['kode_barang']; 
     
     // buat query hapus
-    $sql = "DELETE FROM campickadmin WHERE kode_barang=$kodebarang";
+    $sql = "DELETE FROM campick_admin WHERE kode_barang=$kodebarang";
     $query = mysqli_query($db, $sql);
 
         // apakah query hapus berhasil?

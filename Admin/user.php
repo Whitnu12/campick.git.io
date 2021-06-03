@@ -23,7 +23,7 @@
 <body>
     <div class="wrapper">
         <div class="sidebar" data-image="./assets/img/sidebar-5.jpg">
-            <div class="sidebar-wrapper">
+           <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="#" class="simple-text">
                         CamPick
@@ -31,14 +31,19 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
+<<<<<<< HEAD
                         <a class="nav-link" href="/user.html">
                             <i class=""></i>
+=======
+                        <a class="nav-link" href="./user.html">
+                            
+>>>>>>> 46dfc9fe76daa9cd5b6c0231c92ce50def08d230
                             <p>Utama</p>
                         </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="./user.php">
-                            <i class=""></i>
+                            
                             <p>Data Produk</p>
                         </a>
                     </li>
@@ -96,7 +101,7 @@
                                         <tbody>
 
                                             <?php
-                                                $sql = "SELECT * FROM campickadmin";
+                                                $sql = "SELECT * FROM campick_admin";
                                                 $query = mysqli_query($db, $sql);
                                             
                                                 while($produk = mysqli_fetch_array($query)){
