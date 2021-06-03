@@ -53,6 +53,14 @@ form input[type="text"]{
     outline: none;
 }
 
+form input[type="email"]{ 
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid black;
+    outline: none;
+}
+
 form input[type="password"]{
     color: black;
     background-color: transparent;

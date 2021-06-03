@@ -15,7 +15,7 @@
     <div class="navbar">
         <ul>
             <li> <a href="Form-Login.php"> Login </a> </li>    
-            <li> <a href="#">About us</a></li>
+            <li> <a href="aboutUs.html">About us</a></li>
             <li> <a href="galeri.php">Galeri</a></li>
             <li> <a href="Product.php">Product</a> </li>
             <li> <a href="#" class="active1">Home</a></li>
@@ -70,7 +70,7 @@
 <img src=IMG\kisspng-checklist-digital-estate-planning-marketing-requir-vector-notebook-5a8e2a3cb42843.0068702015192663647379.png>
 <h1> Syarat yang Mudah! </h1><br>
 <p> Persyaratan Untuk meminjam Perlengkapan camping sangat mudah <br> 
-Cukup dengan : <br>
+Cukup dengan : <br><br>
 KTP ✔<br>
 Nomor Handphone ✔ <br>
 DP 50% Dari Total Harga ✔<br> 
@@ -79,12 +79,20 @@ Kalian Sudah Bisa Menggunakan Alat Alat Camping Yang
 masih Mulus dan Baru!
  </p>
 </div>
+
+<div class="call">
+    <a href="https://wa.me/081337391723">
+    <img src="/campick/IMG/whatsapp.svg"> </a>
+        <div class="show"> 
+            <p> Butuh bantuan? </p>
+        </div> 
+</div>
 </body>
 
     <div class="footer"> 
         <div class="container1">
              <h1> Ayo Booking Sekarang! </h1> 
-             <a href="#"> Booking! </a> 
+             <a href="Product.php"> Booking! </a> 
         </div> 
         <div class="container2">  
             <p id="p1"> ©Campick - 2021 </p> 
