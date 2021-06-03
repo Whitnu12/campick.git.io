@@ -42,6 +42,12 @@
                             <p>Data Produk</p>
                         </a>
                     </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="calendar.html">
+                            <i class=""></i>
+                            <p>Calender</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

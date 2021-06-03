@@ -35,9 +35,15 @@
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./user.html">
-                            <i class="nc-icon nc-circle-09"></i>
-                            <p>Products</p>
+                        <a class="nav-link" href="./user.php">
+                            <i class=""></i>
+                            <p>Data Produk</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="calendar.html">
+                            <i class=""></i>
+                            <p>Calender</p>
                         </a>
                     </li>
                 </ul>
