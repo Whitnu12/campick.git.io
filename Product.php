@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel=" stylesheet" href="/campick/CSS/produk.css" media="screen">
+    <link rel=" stylesheet" href="CSS/produk.css" media="screen">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,9 @@
     <div class="produk">
 
         <div class="konten">
-            <img src="img/produk/alas.jpg">
+            <a href="Detail produk.html">
+                <img src="img/produk/alas.jpg">
+            </a>
             <p>Alas.</p>
             <h3>Rp.500.000,00</h3>
             <input class="keranjang" type="submit" value="Masukkan Favorit">
@@ -123,8 +125,17 @@
             <input class="keranjang" type="submit" value="Masukkan Favorit">
             <input class="booking" type="submit" value="Booking">
         </div>
-
     </div>
+
+    <div class="footer">
+        <div class="container1">
+            <h1> Ayo Booking Sekarang! </h1>
+            <a href="#"> Booking! </a>
+        </div>
+        <div class="container2">
+            <p id="p1"> ©Campick - 2021 </p>
+            <p id="p2"> Penyewaan Alat Camping Termurah di Jogja </p>
+        </div>
 
 </body>
 

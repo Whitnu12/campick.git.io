@@ -1,9 +1,7 @@
 # RWP.online
-Tugas RWP kelompok 8 Reservasi Penyewaaan alat camping 
+Tugas RWP kelompok 8 Reservasi Penyewaaan alat camping /n
 
-
-Good Luck s
-
+Merupakan aplikasi Penyewaan Alat Camping khusus untuk Salah satu Tempat di yogya
 
 wa. 081337391723
 
