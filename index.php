@@ -26,7 +26,7 @@
         <div class="title">
             <h3> Welcome To </h3>
             <h1> CamPick </h1>
-            <a href="index.php"><strong>Join Us!</strong></a>
+            <a href="login.php"><strong>Join Us!</strong></a>
             <a href="#">take a Tour!</a> 
         </div>
     </div>
@@ -92,7 +92,7 @@ masih Mulus dan Baru!
     <div class="footer"> 
         <div class="container1">
              <h1> Ayo Booking Sekarang! </h1> 
-             <a href="#"> Booking! </a> 
+             <a href="Product.php"> Booking! </a> 
         </div> 
         <div class="container2">  
             <p id="p1"> ©Campick - 2021 </p> 
